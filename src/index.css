@@ -1,0 +1,160 @@
+:root {
+  font-family: "Montserrat";
+  src: url("assets/font/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Bootstrap Primary Color */
+
+  --primary-color: #5e55e7;
+  --secondary-color: #f8f7fe;
+
+  --light-color: #f0f0f5;
+  --grey-color: #a0a0a0;
+  --black-color: #ffffff;
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("assets/font/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Semibold";
+  src: url("assets/font/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+/* Applying the font to <p> tags */
+p {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 600;
+  width: 90%;
+}
+
+/* Now apply the font family */
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px !important;
+  background-color: #f8f7fe !important;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+h1 {
+  font-family: "Montserrat Semibold", sans-serif !important;
+  font-weight: 600 !important; /* Semi Bold */
+  font-size: 48px !important;
+  color: #5e55e7 !important ;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 20px !important;
+  color: #5e55e7 !important ;
+}
+
+.book-card {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px !important;
+}
+
+/* bg image for page */
+
+.bg-image {
+  background-image: url("assets//image/Pattern.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f8f7fe;
+}
+
+.card-grid {
+  grid-template-columns: auto auto;
+  grid-column-gap: 4rem;
+  grid-row-gap: 1rem;
+}
+
+.container {
+  max-width: 1080px !important;
+}
+
+.card {
+  width: 114px;
+  height: 162px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
+
+/* Custom class for css */
+
+.search-box-container {
+  position: relative;
+  width: 100%;
+}
+
+.search-box-input {
+  width: 100% !important;
+  padding-left: 35px !important;
+}
+
+.search-icon {
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  pointer-events: none;
+}
+
+.clear-icon {
+  position: absolute;
+  right: 23px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 12px !important;
+}
+
+.card-text {
+  font-size: 12px;
+}
+
+.card-img-top {
+  width: 114px !important;
+  height: 162px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
+
+.card-title {
+  width: 115px;
+  -webkit-box-orient: vertical;
+  display: block /* Fallback for non-WebKit */;
+  display: -webkit-box;
+  font-family: sans-serif;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.handCursor{
+  cursor: pointer !important; 
+}
